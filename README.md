@@ -1,2 +1,2 @@
-# Ejercicios resueltos por Claudio Martín Sandoval
+# Ejercicios resueltos 
 Entregas Coderhouse comision JavaScript-24350 
