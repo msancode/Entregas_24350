@@ -1,6 +1,6 @@
 let start = parseFloat(
   prompt(
-    "- Desea agregar alumnos y verlos? [1]\n- Desea saber quien posse la mejor nota? [2]\n- Salir [3]"
+    "- Desea agregar alumnos y verlos? [1]\n- Desea saber quien posee la mejor nota? [2]\n- Salir [3]"
   )
 );
 
