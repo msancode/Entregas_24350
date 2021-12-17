@@ -1,26 +1,32 @@
 //obtengo valores de entrada
-let form2 = document.getElementById("form2");
-let inputName = document.getElementById("userN");
-let inputPass = document.getElementById("passW");
-let error = document.getElementById("errorMSJ");
+let form = document.getElementById("form");
+let userName = document.getElementById("userName");
+let email = document.getElementById("email");
+let pwd = document.getElementById("pwd");
+let succes = document.getElementById("succesMSJ");
 
 let msj =
-  "La contraseña o el Usuario es incorrecto. Vuelve a intentarlo o haz clic en Registrarse.";
-const almacenados = JSON.parse(localStorage.getItem("UsersCollection"));
-form2.addEventListener("submit", validarFormulario);
+  "Usted creo con exito un nuevo Usuario!. vuelva a la pagina de Login para ingresar.";
 
-//validar ingreso
-function validarFormulario(e) {
-  e.preventDefault();
-  for (const user of almacenados) {
-    if (inputName.value == user.name && inputPass.value == user.pass) {
-      window.location.href = "../notepad.html";
-    } else if (inputName.value != user.name || inputPass.value != user.pass) {
-      addNote(error, msj);
-      msj = "";
-    }
+//Declarando clase
+class User {
+  constructor(name, email, pass) {
+    this.name = name;
+    this.email = email;
+    this.pass = pass;
   }
 }
+//Declaracion de array global
+const usersNewCollection = [];
+
+//almacenando notas localmente a traves de eventos
+form.onsubmit = (e) => {
+  e.preventDefault();
+  usersNewCollection.push(new User(userName.value, email.value, pwd.value));
+  localStorage.setItem("UsersCollection", JSON.stringify(usersNewCollection));
+  addNote(succes, msj);
+  msj = "";
+};
 
 //agregar notas al DOM
 function addNote(column, msjNote) {

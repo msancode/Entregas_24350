@@ -4,9 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>2da entregaProyectoFinal</title>
+
     <link rel="stylesheet" href="./css/main.css" />
     <link rel="shortcut icon" href="#" />
-    <title>2da entregaProyectoFinal</title>
   </head>
   <body>
     <div class="wrapper">
@@ -16,37 +17,28 @@
         />
       </div>
       <div class="name">Hola!</div>
-
-      <form id="form">
+      <form id="form2">
         <div class="form-field">
-          <input
-            type="text"
-            name="userName"
-            id="userName"
-            placeholder="Nuevo Usuario"
-          />
-        </div>
-        <div class="form-field">
-          <input type="email" name="email" id="email" placeholder="Email" />
+          <input type="text" name="userName" id="userN" placeholder="Usuario" />
         </div>
         <div class="form-field">
           <input
             type="password"
             name="password"
-            id="pwd"
-            placeholder="Nueva Password"
+            id="passW"
+            placeholder="Password"
           />
         </div>
-        <button class="btn" id="signButton" type="submit">Sign Up</button>
+        <button class="btn" id="loginButton" type="submit">Login</button>
       </form>
       <div class="texto-a">
-        <a href="./index.html">Volver a Login</a>
+        <a href="./index.html">Registrarse</a>
       </div>
-      <div class="succes" id="succesMSJ">
-        <!-- mensaje exito -->
+      <div class="error" id="errorMSJ">
+        <!-- mensaje error -->
       </div>
     </div>
 
-    <script src="./js/registro.js"></script>
+    <script src="./js/login.js"></script>
   </body>
 </html>
