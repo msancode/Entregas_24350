@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="shortcut icon" href="#" />
+    <title>Agenda</title>
+  </head>
+  <body>
+    <div class="topnav" id="up">
+      <a class="active" href="./notepad.html">Notas</a>
+      <a href="./zodiac.html">Zodiaco</a>
+      <a href="./frases.html">Frases</a>
+      <a href="./acerca.html">Acerca</a>
+    </div>
+    <div class="wrapper">
+      <div class="name" id="hello">
+        <!-- mensaje saludo animado -->
+      </div>
+
+      <form class="form-field .wrapper notepad" id="form">
+        <input type="text" id="text-input" placeholder="Nueva nota ..." />
+        <button type="submit" class="add-button btn">Agregar</button>
+      </form>
+
+      <ul class="paragraph-note" id="ul-items">
+        <!-- se muestran las notas por pantalla -->
+      </ul>
+    </div>
+    <footer class="footer">
+      <p>Autor: Claudio Martín Sandoval</p>
+      <p><a id="down" class="link" href="#">Inicio </a></p>
+    </footer>
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/notepad.js"></script>
+  </body>
+</html>

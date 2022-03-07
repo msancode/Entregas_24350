@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "autor": "Jorge Luis Borges",
+    "frase": "La duda es uno de los nombres de la inteligencia.",
+    "img": "../autorIMG/borges.jpg"
+  },
+  {
+    "id": 2,
+    "autor": "Ozzy Osbourne",
+    "frase": "I got rabies shots for biting the head off a bat but that`s OK - the bat had to get Ozzy shots.",
+    "img": "../autorIMG/ozzy.jpg"
+  },
+  {
+    "id": 3,
+    "autor": "Albert Einstein",
+    "frase": "Never memorize something that you can look up.",
+    "img": "../autorIMG/einstein.jpg"
+  },
+  {
+    "id": 4,
+    "autor": "Steve Jobs",
+    "frase": "Stay hungry. Stay foolish.",
+    "img": "../autorIMG/steve-jobs.jpg"
+  },
+  {
+    "id": 5,
+    "autor": "Michael Jordan",
+    "frase": "There's only one Michael Jordan.",
+    "img": "../autorIMG/michaelJordan3.jpg"
+  },
+  {
+    "id": 6,
+    "autor": "Coco Chanel",
+    "frase": "A girl should be two things: who and what she wants.",
+    "img": "../autorIMG/cocochanel.jpg"
+  },
+  {
+    "id": 7,
+    "autor": "Marie Curie",
+    "frase": "I was taught that the way of progress was neither swift nor easy.",
+    "img": "../autorIMG/mariecurie.jpg"
+  },
+  {
+    "id": 8,
+    "autor": "Salvador Dali",
+    "frase": "Solo hay dos cosas malas que pueden pasarte en la vida : ser Pablo Picasso o no ser Salvador Dalí.",
+    "img": "../autorIMG/dali.jpg"
+  },
+  {
+    "id": 9,
+    "autor": "Neil Armstrong",
+    "frase": "That's one small step for a man, one giant leap for mankind.",
+    "img": "../autorIMG/neil.jpg"
+  }
+]
